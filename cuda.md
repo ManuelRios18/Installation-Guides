@@ -12,12 +12,13 @@ On terminal run:
 sudo apt-get purge nvidia *
 sudo add-apt-repository ppa:graphics-drivers
 sudo apt-get update
+sudo apt install nvidia-driver-450
 ```
 
-Open `Software and Updates` and go to the `Additional drivers`  tab.  
-Select The last Nvidia Driver version with the _propietary_ tag at the end of its name.  
-Click on Apply Changes.  
-Restart the computer.  
+Reboot your pc and run `nvidia-smi` to check that everything is working.
+
+If you get the error _NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver_  Disable secure boot.
+  
 
 ## CUDA TOOLKIT
 
