@@ -19,6 +19,9 @@ Reboot your pc and run `nvidia-smi` to check that everything is working.
 
 If you get the error _NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver_  Disable secure boot.
   
+*Note*:
+
+We used `nvidia-driver-450` since it was the recommended driver after running `ubuntu-drivers devices`
 
 ## CUDA TOOLKIT
 
